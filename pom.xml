@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.gunmarket</groupId>
-    <artifactId>CommonDataLayer</artifactId>
+    <artifactId>GunmarketCommonDataLayer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>CommonDataLayer</name>
+    <name>GunmarketCommonDataLayer</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
