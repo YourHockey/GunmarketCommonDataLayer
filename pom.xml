@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.gunmarket</groupId>
-    <artifactId>GunmarketCommonDataLayer</artifactId>
+    <artifactId>gunmarket-common-data-layer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>GunmarketCommonDataLayer</name>
+    <name>gunmarket-common-data-layer</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -28,7 +28,7 @@
     <dependencies>
         <dependency>
             <groupId>ru.gunmarket</groupId>
-            <artifactId>QueryBuilder</artifactId>
+            <artifactId>query-builder</artifactId>
             <version>${querybuilder.version}</version>
         </dependency>
         <dependency>
