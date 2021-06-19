@@ -72,6 +72,14 @@
         </dependency>
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>yourhockey-maven-github-packages</id>
+            <name>GitHub Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/yourhockey/*</url>
+        </repository>
+    </repositories>
+
     <distributionManagement>
         <repository>
             <id>github</id>
