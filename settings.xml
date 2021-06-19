@@ -15,6 +15,11 @@
                     <id>central</id>
                     <url>https://repo1.maven.org/maven2</url>
                 </repository>
+                <repository>
+                    <id>yourhockey-maven-github-packages</id>
+                    <name>GitHub Apache Maven Packages</name>
+                    <url>https://maven.pkg.github.com/yourhockey</url>
+                </repository>
             </repositories>
         </profile>
     </profiles>
