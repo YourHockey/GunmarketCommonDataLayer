@@ -19,7 +19,8 @@ jobs:
         run: mvn -B verify
       - name: Publish to GitHub Packages
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
         run: |
           NEW_VERSION=$(echo "${GITHUB_REF}" | cut -d "/" -f3)
           echo "New version: ${NEW_VERSION}"
