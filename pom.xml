@@ -75,7 +75,7 @@
         <repository>
             <id>yourhockey-maven-github-packages</id>
             <name>GitHub Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/yourhockey/*</url>
+            <url>https://maven.pkg.github.com/yourhockey</url>
         </repository>
     </repositories>
 
