@@ -1,10 +1,10 @@
 package ru.vakoom.gunmarket.commondatalayer.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import ru.gunmarket.querybuilder.FilterAndSortingRepository;
 import ru.vakoom.gunmarket.commondatalayer.model.Brand;
 import ru.vakoom.gunmarket.commondatalayer.model.Product;
 import ru.vakoom.gunmarket.commondatalayer.model.Type;
+import ru.vakoom.querybuilder.FilterAndSortingRepository;
 
 import java.util.Optional;
 

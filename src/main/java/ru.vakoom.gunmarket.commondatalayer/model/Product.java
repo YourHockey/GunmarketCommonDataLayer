@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import lombok.experimental.Accessors;
-import ru.gunmarket.querybuilder.BasicEntity;
+import ru.vakoom.querybuilder.BasicEntity;
 
 import javax.persistence.*;
 import javax.validation.constraints.Min;

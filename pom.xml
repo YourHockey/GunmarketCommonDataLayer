@@ -7,7 +7,6 @@
     <groupId>ru.gunmarket</groupId>
     <artifactId>gunmarket-common-data-layer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
     <name>gunmarket-common-data-layer</name>
 
     <parent>
@@ -29,7 +28,7 @@
         <dependency>
             <groupId>ru.gunmarket</groupId>
             <artifactId>query-builder</artifactId>
-            <version>${querybuilder.version}</version>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>org.postgresql</groupId>
