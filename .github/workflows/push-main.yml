@@ -18,5 +18,5 @@ jobs:
       - name: Publish to GitHub Packages
         env:
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-        run: mvn -s settings.xml -B deploy
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: mvn -s .github/settings.xml -B deploy
