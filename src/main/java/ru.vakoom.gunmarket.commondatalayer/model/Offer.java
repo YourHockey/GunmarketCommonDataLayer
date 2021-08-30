@@ -39,4 +39,5 @@ public class Offer {
     private double price;
     private boolean inStock;
     private String link;
+    private boolean active;
 }
