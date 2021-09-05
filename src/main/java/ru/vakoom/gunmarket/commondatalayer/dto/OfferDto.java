@@ -11,7 +11,6 @@ public class OfferDto {
 
     private String productId;
     private String shopName;
-    private String name;
     private Double price;
     private Boolean inStock;
     @Column(length = 1023)
