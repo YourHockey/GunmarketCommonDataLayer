@@ -25,7 +25,6 @@ public class Product implements BasicEntity {
     public static final String PRODUCT_MIN_PRICE = "minPrice";
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = PRODUCT_ID, length = 8, nullable = false)
     private Long productId;
 

@@ -6,7 +6,7 @@
 
     <groupId>ru.gunmarket</groupId>
     <artifactId>gunmarket-common-data-layer</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.4</version>
     <name>gunmarket-common-data-layer</name>
 
     <parent>
